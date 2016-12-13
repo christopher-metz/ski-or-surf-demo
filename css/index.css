@@ -1,0 +1,42 @@
+body {
+  background-size: cover;
+  height: 100vh;
+}
+
+.blend {
+  mix-blend-mode: difference;
+  /*luminosity*/
+  /*difference*/
+  /*multiple*/
+}
+
+#body-wrapper {
+  height: 100%;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: 95%;
+}
+
+.button-collapse {
+  cursor: pointer;
+  float: left;
+}
+
+#index-banner {
+  /*height: 90%;*/
+  top: 0;
+}
+
+.demo-buttons {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+h5 {
+  display: flex;
+  justify-content: center;
+}
